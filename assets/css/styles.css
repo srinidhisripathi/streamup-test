@@ -1,0 +1,199 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  }
+
+
+.header {
+  text-align: center;
+  position: relative;
+}
+
+.container {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.account {
+  float: left;
+  display: block;
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+  background-color: #EFEFEF;
+}
+
+.logo {
+  text-decoration: none;
+  color: blue;
+  font-size: 15px;
+  width: 68px;
+  height: 18px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  margin-left: -34px;
+  top: 50%;
+  margin-top: -9px;
+}
+
+.go-live {
+  float: right;
+  display: block;
+  height: 25px;
+  width: 70px;
+  border-radius: 25px;
+  background-color: red;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.hero {
+  background-color: #333333;
+  color: white;
+  width: 100%;
+  padding: 150px 0;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 13px;
+}
+
+.hero > p {
+  padding-bottom: 15px;
+}
+h2 {
+  font-size: 23px;
+}
+
+.join {
+  height: 25px;
+  width: 100px;
+  border-radius: 25px;
+  background-color: blue;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  line-height: 24px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.container.narrow {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.icons {
+  display: inline;
+  width: 364px;
+}
+.grid > li {
+  float: left;
+  padding: 0 30px 30px 0px;
+}
+
+.grid > li:last-child {
+  padding-right: 0;
+}
+.grid {
+  text-align: center;
+  color: grey;
+}
+.navigation {
+  font-size: 17px;
+  padding: 10px 0 10px 0;
+  width: 364px;
+}
+
+.description {
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.container.half {
+  width: 50%;
+  margin: auto;
+  padding-top: 70px;
+  text-align: center;
+  color: grey;
+  padding-bottom: 70px;
+}
+
+.container.half > h4 {
+  color: black;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+.container.half > p {
+  font-size: 15px;
+  line-height: 1.25;
+}
+
+.container.narrow.quote {
+  background: #4d4d4d;
+  padding: 200px 50px 10px 50px;
+  text-align: right;
+  font-size: 17px;
+  color: white;
+  line-height: 1.3;
+  letter-spacing: 1.3;
+}
+.name {
+  font-size: 13px;
+  line-height: 3.5;
+}
+
+.benefits {
+  display: inline-block;
+  width: 220px;
+  height: 50px;
+}
+.grid2 {
+  text-align: left;
+  color: grey;
+  font-size: 14px;
+}
+.grid2 > li {
+  float: left;
+  padding: 10px 30px 10px 0px;
+}
+
+.grid2 > li:nth-child(3n) {
+  padding-right: 0;
+}
+
+.footer {
+  background-color: white;
+  color: grey;
+  width: 100%;
+  padding: 150px 0;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 15px;
+  border-top: 1px solid #EFEFEF;
+}
+
+.footer > p {
+  padding-bottom: 15px;
+}
+.footer > h2 {
+  font-size: 25px;
+  color: black;
+  line-height: 1.5;
+}
+
+.join {
+  height: 25px;
+  width: 100px;
+  border-radius: 25px;
+  background-color: blue;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  line-height: 24px;
+  display: inline-block;
+  text-decoration: none;
+}
